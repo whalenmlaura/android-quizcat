@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueBackground"
+    tools:context=".ResultScreen">
+
+    <TextView
+        android:id="@+id/resultTxt"
+        android:layout_width="329dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/box_styles"
+        android:fontFamily="@font/nunito_sans"
+        android:gravity="start|center_vertical"
+        android:letterSpacing="0.03"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/resultTxt"
+        android:textAlignment="center"
+        android:textColor="@color/textColour"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/quizCatImg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:scaleType="center"
+        android:src="@drawable/quizcatlogo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

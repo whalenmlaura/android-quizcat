@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuizCat</string>
+    <string name="QuizCatTxt">QuizCat</string>
+    <string name="enterNameTxt">Enter your name:</string>
+    <string name="nameEditTxt" />
+    <string name="continueBtn">Continue</string>
+    <string name="questionTxt" />
+    <string name="nextBtn">Next</string>
+    <string name="answerOneBtn" />
+    <string name="answerTwoBtn" />
+    <string name="answerThreeBtn" />
+    <string name="answerFourBtn" />
+    <string name="resultTxt" />
+    <string name="invalidNameTxt">No numbers or special characters</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#F5FBFF</color>
+    <color name="blueBackground">#F5FBFF</color>
+    <color name="textColour">#1B4965</color>
+    <color name="borderColour">#C1D9ED</color>
+    <color name="overlayColour">#555555</color>
+    <color name="navButtonColour">#D0E8FD</color>
+    <color name="Red">#FF0000</color>
+</resources>

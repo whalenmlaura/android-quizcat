@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueBackground"
+    tools:context=".QuizScreen">
+
+
+    <TextView
+        android:id="@+id/questionTxt"
+        android:layout_width="329dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/nunito_sans"
+        android:letterSpacing="0.03"
+        android:background="@drawable/box_styles"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/questionTxt"
+        android:textAlignment="center"
+        android:textColor="@color/textColour"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/answerOneBtn"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="293dp"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:background="@drawable/box_styles"
+        android:text="@string/answerOneBtn"
+        android:textColor="@color/textColour"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionTxt" />
+
+    <Button
+        android:id="@+id/answerTwoBtn"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:background="@drawable/box_styles"
+        android:text="@string/answerTwoBtn"
+        android:textColor="@color/textColour"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/answerOneBtn"
+        app:layout_constraintTop_toBottomOf="@+id/questionTxt" />
+
+    <Button
+        android:id="@+id/answerThreeBtn"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="293dp"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:background="@drawable/box_styles"
+        android:text="@string/answerThreeBtn"
+        android:textColor="@color/textColour"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionTxt" />
+
+    <Button
+        android:id="@+id/answerFourBtn"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:background="@drawable/box_styles"
+        android:text="@string/answerFourBtn"
+        android:textColor="@color/textColour"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/answerOneBtn"
+        app:layout_constraintTop_toBottomOf="@+id/questionTxt" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:letterSpacing="0.1"
+        android:background="@drawable/nav_buttons"
+        android:gravity="center"
+        android:text="@string/nextBtn"
+        android:textColor="@color/textColour"
+        android:textSize="26sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Project level resources -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar" />
+
+    <!-- QuizScreenActivity -->
+    <style name="QuizScreenTheme" parent="Theme.AppCompat.NoActionBar"/>
+
+    <!-- ResultScreenActivity -->
+    <style name="ResultScreenTheme" parent="Theme.AppCompat.NoActionBar"/>
+
+    <!-- HomeScreenActivity -->
+    <style name="HomeScreenTheme" parent="Theme.AppCompat.NoActionBar"/>
+</resources>
